@@ -1,10 +1,10 @@
-let count = 0
 let counter = document.getElementByID("counter")
+let count = 0
 counter.textContent = count
 
 function subtract() {
     count -= 1
-    counter.innerText = count
+    counter.textContent = count
 }
 
 function add() {
