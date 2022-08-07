@@ -1,4 +1,4 @@
-let counter = document.getElementByID("counter")
+let counter = document.getElementById("counter")
 let count = 0
 counter.textContent = count
 
