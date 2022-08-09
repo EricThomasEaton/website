@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="/website/style.css" />
-        <title>Eric Eaton's Website</title>
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <title>Welcome, traveller.</title>
     </head>
     <body>
-        <h1>Welcome!</h1>
-        <h2></h2>
-        <p>My name is Eric Eaton and this is my website. It is a work in progress and will serve as a log of my journey into the world of programming.</p>
-        <div>
-            <h3>Here's a counter:</h3>
-            <h5 id="counter"></h5>
-            <button onclick="subtract()">-</button><button onclick="add()">+</button>
-        </div>
+        <h5 id="access-denied">//ACCESS DENIED: user not found.</h5>
+        <button id="scan-btn" onclick="scan()">initiate scan()</button>
+        <img id="caesar" src="images/caesar-in-cube.gif">
+        <h5 id="create-profile">//scanning skeletal structure... creating new profile...</h5>
+        <main id="columns">
+            <h1><i>Welcome, Traveller.</i></h1>
+            <div id="column1">
+                <p>Surfing the web is hard work, you must be parched. Would you like a glass of water??</p>
+                <button onclick="drinkWater()">Yes!</button>
+                <img id="glass-of-water" src="images/glass-of-water.gif" />
+            </div>
+            <div id="column2">
+                <img src="images/vector-no-looking-back.gif" alt="diet pepsi is good for you">
+            </div>
+            <div id="column3">
+               <button onclick="manufactureWeapons()">initialize manufactureWeapons()</button>
+               <h4 id="weapons-header"></h4>
+               <img id="weapons" src="images/ak47-matrix.gif">
+            </div>
+        </main>
     </body>
-    <script src="/website/script.js"></script>
+    <script src="/script.js"></script>
 </html>

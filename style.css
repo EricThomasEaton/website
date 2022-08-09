@@ -1,4 +1,80 @@
+body {
+    background-color: black;
+}
+
+#columns {
+    visibility: hidden;
+}
+
+p {
+    color: whitesmoke;
+}
+
 h1 {
-    color: brown;
+    color: white;
     text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+#access-denied {
+    color: white;
+}
+
+#create-profile {
+    color: white;
+    display: none;
+}
+
+#columns {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div {
+    justify-content: center;
+    display: flex;
+    width: 32%;
+}
+
+#column1 {
+    background-color: darkgray;
+    float: left;
+    display: block;
+}
+
+#column2 {
+    position: absolute;
+    left: 425px;
+    
+}
+
+#column3 {
+    position: relative;
+    right: 5px;
+    background-color: darkgray;
+    float: right;
+    display: block;
+}
+
+img {
+    width: auto;
+    margin:auto;
+    text-align: center;
+} 
+
+#glass-of-water {
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+#weapons {
+    height: 75%;
+    width: 75%;
+    display: none;
+}
+
+#caesar {
+    display: none;
 }
